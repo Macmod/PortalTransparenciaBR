@@ -20,3 +20,6 @@ $ python ptmerger.py <CATEGORIA>
 ```
 
 Os dados extraídos serão inseridos no diretório `csv` e os dados desagrupados serão inseridos no diretório `output`. O diretório `log` serve apenas para registrar os nomes dos arquivos já extraídos para cada categoria, evitando a extração repetida de arquivos. Caso queira extrair a categoria inteira novamente, remova o diretório `log` e re-execute o comando.
+
+## Observação
+Os dados de algumas categorias do portal podem ser muito grandes, na casa de dezenas de gigabytes. Observe a utilização de disco durante a execução do programa.
