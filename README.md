@@ -19,4 +19,4 @@ O portal oferece dados agrupados por subcategorias, tais como ano, mês e origem
 $ python ptmerger.py <CATEGORIA>
 ```
 
-Os dados extraídos serão inseridos no diretório `csv` e os dados desagrupados serão inseridos no diretório `output`. O diretório `log` serve apenas para registrar os nomes dos arquivos já extraídos para cada categoria, evitando o download repetido de arquivos. Caso queira baixar a categoria inteira novamente, remova o diretório `log` e re-execute o comando.
+Os dados extraídos serão inseridos no diretório `csv` e os dados desagrupados serão inseridos no diretório `output`. O diretório `log` serve apenas para registrar os nomes dos arquivos já extraídos para cada categoria, evitando a extração repetida de arquivos. Caso queira extrair a categoria inteira novamente, remova o diretório `log` e re-execute o comando.
