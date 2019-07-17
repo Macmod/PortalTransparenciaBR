@@ -13,10 +13,10 @@ $ python ptfetcher.py <CATEGORIA>
 
 Os dados comprimidos, como disponibilizados no site, serão baixados para o diretório `data`.
 
-## Desagregação
-O portal oferece dados agregados por subcategorias, tais como ano, mês e origem. Para desagregar os dados já baixados, obtendo um CSV único para cada conjunto de CSVs com as mesmas colunas, execute o comando:
+## Desagrupamento
+O portal oferece dados agrupados por subcategorias, tais como ano, mês e origem. Para desagrupar os dados já baixados, obtendo um CSV único para cada conjunto de CSVs com as mesmas colunas, execute o comando:
 ```bash
 $ python ptmerger.py <CATEGORIA>
 ```
 
-Os dados extraídos serão inseridos no diretório `csv` e os dados desagregados serão inseridos no diretório `output`. O diretório `log` serve apenas para registrar os nomes dos arquivos já extraídos para cada categoria, evitando o download repetido de arquivos. Caso queira baixar a categoria inteira novamente, remova o diretório `log` e re-execute o comando.
+Os dados extraídos serão inseridos no diretório `csv` e os dados desagrupados serão inseridos no diretório `output`. O diretório `log` serve apenas para registrar os nomes dos arquivos já extraídos para cada categoria, evitando o download repetido de arquivos. Caso queira baixar a categoria inteira novamente, remova o diretório `log` e re-execute o comando.
