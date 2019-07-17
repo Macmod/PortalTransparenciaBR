@@ -1,5 +1,6 @@
 # PortalTransparenciaBR
-Extrator de dados do portal da transparência do governo brasileiro. 
+Extrator de dados do portal da transparência do governo brasileiro.
+O propósito desse repositório é facilitar o acesso ao conjunto completo de dados do portal da transparência para fins de análise de dados offline. Se o seu propósito for a obtenção de respostas para pequenas consultas nos dados, utilize a [API do portal](http://www.portaltransparencia.gov.br/api-de-dados) ao invés.
 
 ## Categorias
 As categorias de dados disponíveis são aquelas listadas na seção [Download de Dados](https://www.portaltransparencia.gov.br/download-de-dados/) do portal e são identificadas pelo nome na URL, como `servidores`, `bolsa-familia-pagamentos`, `licitacoes`, etc.
